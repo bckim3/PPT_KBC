@@ -8,7 +8,7 @@ import javax.swing.JLabel;
 
 public class instructions extends JFrame{
 	instructions(){
-	super("¼³¸í¼­");
+	super("ì„¤ëª…ì„œ");
 	setSize(300,200);
 	setVisible(true);
 	
@@ -18,12 +18,12 @@ public class instructions extends JFrame{
 	Container C = getContentPane();
 	C.setLayout(new FlowLayout());
 	
-	JLabel l = new JLabel("PPT½ÃÀÛ : ");
-	JLabel l1 = new JLabel("½ÃÀÛÀº ÇÏ´ÜÀÇ ¹öÆ°Å¬¸¯ ¶Ç´Â");
-	JLabel l2 = new JLabel("A ¸¦ ÀÔ·ÂÇÏ½Ã¸é µË´Ï´Ù");
-	JLabel l4 = new JLabel("¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ¤Ñ");
-	JLabel l3 = new JLabel("PPT Á¾·á : ");
-	JLabel l5 = new JLabel("Á¾·á´Â Å°º¸µåÀÇ ESCÀÔ´Ï´Ù");
+	JLabel l = new JLabel("PPTì‹œì‘ : ");
+	JLabel l1 = new JLabel("ì‹œì‘ì€ í•˜ë‹¨ì˜ ë²„íŠ¼í´ë¦­ ë˜ëŠ”");
+	JLabel l2 = new JLabel("A ë¥¼ ì…ë ¥í•˜ì‹œë©´ ë©ë‹ˆë‹¤");
+	JLabel l4 = new JLabel("ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡ã…¡");
+	JLabel l3 = new JLabel("PPT ì¢…ë£Œ : ");
+	JLabel l5 = new JLabel("ì¢…ë£ŒëŠ” í‚¤ë³´ë“œì˜ ESCì…ë‹ˆë‹¤");
 	
 	C.add(l);
 	C.add(l1);
@@ -37,5 +37,4 @@ public class instructions extends JFrame{
 	public static void main(String[] args) {
 		new instructions();
 	}
-
 }
